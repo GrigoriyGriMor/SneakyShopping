@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3077326308817939272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8377948770289417137}
+  m_Layer: 0
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &8377948770289417137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077326308817939272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2713645339806008564}
+  - {fileID: 4853754365399047974}
+  m_Father: {fileID: 1353956750759504678}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7719301565511789221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353956750759504678}
+  - component: {fileID: 2124270565629299168}
+  - component: {fileID: 6846029920684020612}
+  m_Layer: 0
+  m_Name: SI_Prop_ShoeShelf_13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1353956750759504678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719301565511789221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8377948770289417137}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2124270565629299168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719301565511789221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.824201, y: 3, z: 9.4717865}
+  m_Center: {x: -0.22943568, y: 0.20000005, z: 2.258873}
+--- !u!65 &6846029920684020612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719301565511789221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.529027, y: 5, z: 5.4991837}
+  m_Center: {x: -0.22056437, y: 1, z: 2.3088722}
+--- !u!1001 &2713645339806471942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8377948770289417137}
+    m_Modifications:
+    - target: {fileID: 127328, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_Name
+      value: SI_Prop_ShoeShelf_12 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127328, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2414465
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3366702
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2465668
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+--- !u!4 &2713645339806008564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 463858, guid: 435bbf94f0c16b842a13d18d0c5074b5, type: 3}
+  m_PrefabInstance: {fileID: 2713645339806471942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4853754365398947914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8377948770289417137}
+    m_Modifications:
+    - target: {fileID: 166582, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_Name
+      value: SI_Prop_ShoeShelf_09 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166582, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23216629
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3366702
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.329468
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+--- !u!4 &4853754365399047974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 493420, guid: 47b8fc3c99c21fe488ac37075e37e627, type: 3}
+  m_PrefabInstance: {fileID: 4853754365398947914}
+  m_PrefabAsset: {fileID: 0}
